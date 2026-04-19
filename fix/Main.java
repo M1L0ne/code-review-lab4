@@ -8,7 +8,7 @@ import java.util.Scanner;
  * главный класс для демонстрации лабораторной работы №2.
  */
 public final class Main {
-	// константа в верхнем регистре
+	// сделал константой в верхнем регистре
 	private static final Scanner SCANNER =
 		new Scanner(System.in);
 
@@ -85,7 +85,6 @@ public final class Main {
 		}
 	}
 
-
 	/**
 	 * читает целое число из ввода с обработкой ошибок.
 	 *
@@ -111,7 +110,6 @@ public final class Main {
 		}
 	}
 
-
 	/**
 	 * читает положительное целое число с
 	 * проверкой корректности.
@@ -134,7 +132,6 @@ public final class Main {
 			);
 		}
 	}
-
 
 	/**
 	 * читает неотрицательное целое число с
@@ -161,7 +158,6 @@ public final class Main {
 		}
 	}
 
-
 	/**
 	 * выполняет задачу 1.2: создание и вывод человека.
 	 */
@@ -183,7 +179,6 @@ public final class Main {
 		System.out.println(human);
 		System.out.println();
 	}
-
 
 	/**
 	 * выполняет задачу 1.3: создание и вывод имени.
@@ -211,10 +206,8 @@ public final class Main {
 		System.out.println();
 	}
 
-
 	/**
-	 * выполняет задачу 2.4: создание
-	 * сотрудников и отделов.
+	 * выполняет задачу 2.4: создание сотрудников и отделов.
 	 */
 	private static void taskDepartmentEmployees() {
 		System.out.println(
@@ -254,7 +247,6 @@ public final class Main {
 		System.out.println(employee3);
 		System.out.println();
 	}
-
 
 	/**
 	 * выполняет задачу 3.4: получение
@@ -304,7 +296,6 @@ public final class Main {
 
 		System.out.println();
 	}
-
 
 	/**
 	 * выполняет задачу 4.5: создание имен с
@@ -357,10 +348,8 @@ public final class Main {
 		System.out.println();
 	}
 
-
 	/**
-	 * выполняет задачу 5.1: создание
-	 * пистолета и выстрелы.
+	 * выполняет задачу 5.1: создание пистолета и выстрелы.
 	 */
 	private static void taskGun() {
 		System.out.println(
