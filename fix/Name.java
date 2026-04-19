@@ -1,5 +1,6 @@
 package lab2;
 
+
 // объединил 2 класса в 1
 /**
  * класс для представления полного имени человека
@@ -12,7 +13,6 @@ public final class Name {
 
 	private final String patronymic;
 
-
 	/**
 	 * конструктор с только личным именем (задание 1.3).
 	 *
@@ -23,7 +23,6 @@ public final class Name {
 		this.firstName = firstName;
 		this.patronymic = null;
 	}
-
 
 	/**
 	 * конструктор с фамилией и личным именем (задание 4.5).
@@ -39,7 +38,6 @@ public final class Name {
 		this.firstName = firstName;
 		this.patronymic = null;
 	}
-
 
 	/**
 	 * конструктор со всеми параметрами (задание 4.5).
@@ -57,7 +55,6 @@ public final class Name {
 		this.firstName = firstName;
 		this.patronymic = patronymic;
 	}
-
 
 	/**
 	 * возвращает строковое представление имени.
