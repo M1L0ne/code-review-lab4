@@ -18,7 +18,7 @@ public final class Main {
 	 *
 	 * @param args аргументы командной строки
 	 */
-	public static void main(final String[] args) {
+	static void main(final String[] args) {
 		try {
 			int taskNum = 0;
 
