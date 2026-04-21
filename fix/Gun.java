@@ -6,7 +6,6 @@ package lab2;
  * (задание 5.1).
  */
 public final class Gun {
-	// переделал в константу в верхнем регистре
 	private static final int DEFAULT_BULLETS = 5;
 
 	private int bullets;

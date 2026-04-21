@@ -1,7 +1,6 @@
 package lab2;
 
 
-// объединил 2 класса в 1
 /**
  * класс для представления полного имени человека
  * (фамилия, имя, отчество).
@@ -63,7 +62,6 @@ public final class Name {
 	 */
 	@Override
 	public String toString() {
-		// stringbuilder для оптимизации
 		final StringBuilder result = new StringBuilder();
 
 		if (lastName != null && !lastName.isEmpty()) {

@@ -8,11 +8,9 @@ import java.util.Scanner;
  * главный класс для демонстрации лабораторной работы №2.
  */
 public final class Main {
-	// сделал константой в верхнем регистре
 	private static final Scanner SCANNER =
 		new Scanner(System.in);
 
-	// константа в верхнем регистре
 	private static final int EXIT_CODE = -1;
 
 	/**
@@ -20,9 +18,7 @@ public final class Main {
 	 *
 	 * @param args аргументы командной строки
 	 */
-	public static void main(
-		final String[] args
-	) {
+	public static void main(final String[] args) {
 		try {
 			int taskNum = 0;
 
@@ -38,14 +34,12 @@ public final class Main {
 					"Введите номер задачи (1-6): "
 				);
 
-                // добавил обработку ввода
 				taskNum = readInt();
 
 				if (taskNum == EXIT_CODE) {
 					break;
 				}
 
-                // перенёс логику из switch-case в функции
 				switch (taskNum) {
 					case 1:
 						taskHuman();
@@ -72,12 +66,10 @@ public final class Main {
 						);
 				}
 			}
-        // обработка ошибок
 		} catch (Exception exception) {
 			System.out.println(
 				"Ошибка: " + exception.getMessage()
 			);
-        // закрытие SCANNER
 		} finally {
 			if (SCANNER != null) {
 				SCANNER.close();
@@ -170,7 +162,6 @@ public final class Main {
 
 		final String name = SCANNER.nextLine().trim();
 
-        // обработка ввода
 		final int height =
 			readPositiveInt("Введите рост (см): ");
 
@@ -289,9 +280,7 @@ public final class Main {
 		);
 
 		for (final Employee employee : employees) {
-			System.out.println(
-				"  - " + employee.getName()
-			);
+			System.out.println("  - " + employee.getName());
 		}
 
 		System.out.println();
@@ -356,7 +345,6 @@ public final class Main {
 			"\n--- Задача 5.1: Пистолет ---"
 		);
 
-        // обработка ввода
 		final int bullets =
 			readNonNegativeInt("Количество патронов: " );
 
